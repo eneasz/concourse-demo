@@ -10,6 +10,8 @@ resources:
   type: git
   source:
    uri: https://github.com/eneasz/concourse-demo.git
+   private_key: |
+      ((git_private_key))
    branch: master
    paths: [Dockerfile]
 - name: damian_demo_build_image
