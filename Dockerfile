@@ -2,4 +2,4 @@ FROM ubuntu:latest
 
 RUN \
   apt-get update && \
-  apt-get install -y golang
+  apt-get install -y golang python3
